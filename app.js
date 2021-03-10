@@ -97,6 +97,7 @@ function init() {
   canvas.addEventListener("mousedown", paintStart);
   canvas.addEventListener("mousemove", drawing);
   canvas.addEventListener("mouseup", paintEnd);
+  canvas.addEventListener("mouseleave", paintEnd);
 }
 
 init();
